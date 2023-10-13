@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Results Page</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+
+
+
+    <style>.square{height: 590px;width: 400px;background-color:#4333f0;text-align: center;}</style>
+
+    <style>.circle{height: 200px;width:250px;background-color: #4633ed ;border-radius: 50%;margin-left: 23%;margin-top: 40%;text-align:center;}</style>
+
+    <style>.square2{height: 590px;width: 400px;background: color #f2fbfa;;text-align:left;display: flex;flex-direction: column;justify-content: center;align-items:center;width: 50%;height: 100%;}</style>
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+    
+    <style>h1, h2, h3, p{
+        font-family: 'Hanken Grotesk', sans-serif;
+      }
+      .font1{
+        color: #c9c2ff;
+      }
+      .font2{
+        font-size: 80px;
+        color: #fff;
+        margin: 0;
+      }
+      .font3{
+        color: #8a7cff;
+        margin: 0;
+      }
+      .font4{
+        color: #fff;
+      }
+      .font5{
+        color: #d66569;
+      }
+      .font6{
+        color: #eebd56;
+      }
+      .font7{
+        color: #5aaf9c;
+      }
+      .font8{
+        color: #232997;
+      }
+      .font-grey{
+        margin-left: -30px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .main-body {
+        width: 50vw;
+        height: 55vh;
+        display: flex;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px 0px rgba(100, 100, 111, 0.1);
+      }
+  
+      .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: linear-gradient(#4c23ca, rgba(77, 35, 202, 0));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      
+      .slab-hold{
+        width: 80%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .btn{
+        background-color: #303b59;
+        width: 73%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .btn:hover{
+        background-color: #4c23ca;
+      }
+      .slab {
+        width: 90%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: aqua;
+        border-radius: 10px;
+      }
+  
+      .slab1{
+        background-color: rgba(214, 101, 105, 0.2);
+      }
+      .slab2{
+        background-color: rgba(238, 189, 86, 0.2);
+      }
+      .slab3{
+        background-color: rgba(90, 175, 156, 0.2);
+      }
+      .slab4{
+        background-color: rgba(35, 41, 151, 0.2);
+      }
+      .box :right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+      }
+  
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+  
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      .row{
+        display: flex;
+      }
+      </style>
+    
+</head>
+
+<body>
+
+    <div class="square">
+
+        <p style="color: white;">Your Result</p>
+
+        <div class="circle">
+
+            <h1 style="color: white;">76</h1>
+
+            <p style=color:white;">of 100</p>
+        
+        </div>
+
+        <h1 style="color: white;">Great</h1>
+
+        <p style="color: white;">You have scored higher than 65% of the people who have taken these tests.</p>
+
+    </div>
+
+    <div class="square2">
+
+    <h3>Summary</h3>
+        
+        <div class="collum1">
+
+            <div class="row row1">
+            
+            <img src="RES/icon-reaction.svg"><p style="color: salmon;">Reaction</p><p>80</p><p style="color: grey;">/100</p>
+
+            </div>
+
+
+
+                <div class="row row2">
+
+                <img src="RES/icon-memory.svg"><p style="color: rgb(247, 202, 5);">Memory</p><p>92</p><p style="color: grey;">/100</p>
+
+                </div>
+
+                <div class="row row3">
+    
+            <img src="RES/icon-verbal.svg"><p style="color: lime;">Verbal</p><p>61</p><p style="color: grey;">/100</p>
+
+                </div>
+
+                <div class="row row4">
+
+            <img src="RES/icon-visual.svg"><p style="color:#4333f0 ;">Visual</p><p>72</p><p style="color: grey;">/100</p>
+
+                </div>
+
+                </div>
+    
+            <button class="btn">Continue</button>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
