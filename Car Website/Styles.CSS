@@ -1,3 +1,6 @@
 
 .body{width:100vw;height:100vh;display: flex;align-items: center;justify-content: center;}
 
+.font-family{link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet";}
